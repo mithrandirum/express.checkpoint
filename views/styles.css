@@ -1,0 +1,43 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+
+li,a {
+   
+    font-size: large;
+    list-style: none;
+    margin-top: 1rem;
+    color : rgb(97, 238, 226);
+    text-decoration: none;
+    
+}
+
+ul {
+    display : flex;
+    justify-content: space-around;
+
+}
+
+header {
+    background-color:black;
+    height : 4rem;
+   
+   
+}
+
+li:hover , a:hover {
+    color : white;
+    cursor : pointer;
+}
+
+footer {
+    margin-top : 35rem;
+    margin-left : 50rem;
+}
+
+
+div {
+    margin-top: 10rem;
+    margin-left: 10px;
+}
